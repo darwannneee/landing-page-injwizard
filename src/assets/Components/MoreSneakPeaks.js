@@ -1,7 +1,7 @@
 function MoreSneakPeaks() {
     return (
-        <main className="bg-[url('./assets/img/MoreSneakPeaks.gif')] md:bg-[url('./assets/img/MoreSneakPeaks.gif')] h-screen bg-contain md:bg-cover">
-
+        <main className="bg-[url('./assets/img/MoreSneakPeaksHandphone.gif')] md:bg-[url('./assets/img/MoreSneakPeaks.gif')] h-[730px] md:h-screen bg-cover">
+        
         </main>
     )
 }
