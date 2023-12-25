@@ -620,40 +620,8 @@ video {
 }
 
 @media (min-width: 1536px) {
-  .md2\:h-\[\] {
-    height: ;
-  }
-
-  .md2\:h-\[1920px\] {
-    height: 1920px;
-  }
-
-  .md2\:h-\[10px\] {
-    height: 10px;
-  }
-
-  .md2\:h-\[1000px\] {
-    height: 1000px;
-  }
-
-  .md2\:h-\[0px\] {
-    height: 0px;
-  }
-
-  .md2\:h-\[920px\] {
-    height: 920px;
-  }
-
-  .md2\:h-\[910px\] {
-    height: 910px;
-  }
-
   .md2\:h-\[870px\] {
     height: 870px;
-  }
-
-  .md2\:pt-9 {
-    padding-top: 2.25rem;
   }
 
   .md2\:pt-12 {
