@@ -559,20 +559,12 @@ video {
   background-size: cover;
 }
 
-.pt-20 {
-  padding-top: 5rem;
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .pt-64 {
   padding-top: 16rem;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
 }
 
 .text-center {
@@ -627,46 +619,17 @@ video {
   }
 }
 
-@media (min-width: 2304px) {
-  .xl\:pt-96 {
-    padding-top: 24rem;
-  }
-
-  .xl\:pt-24 {
-    padding-top: 6rem;
+@media (min-width: 2004px) {
+  .xl\:pt-44 {
+    padding-top: 11rem;
   }
 
   .xl\:pt-48 {
     padding-top: 12rem;
   }
 
-  .xl\:pt-4 {
-    padding-top: 1rem;
-  }
-
-  .xl\:pt-5 {
-    padding-top: 1.25rem;
-  }
-
-  .xl\:pt-52 {
-    padding-top: 13rem;
-  }
-
-  .xl\:pt-44 {
-    padding-top: 11rem;
-  }
-
-  .xl\:pt-40 {
-    padding-top: 10rem;
-  }
-
-  .xl\:pt-56 {
-    padding-top: 14rem;
-  }
-
-  .xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
+  .xl\:pt-96 {
+    padding-top: 24rem;
   }
 
   .xl\:text-9xl {
