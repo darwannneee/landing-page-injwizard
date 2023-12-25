@@ -6,10 +6,8 @@ module.exports = {
     screens: {
 
       'md': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '2004px',
-      // => @media (min-width: 1280px) { ... }
+      'xl': '1800px',
+      'dekstop': '2100px',
     },
   },
   plugins: [],

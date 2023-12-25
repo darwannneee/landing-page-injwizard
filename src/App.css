@@ -619,20 +619,48 @@ video {
   }
 }
 
-@media (min-width: 2004px) {
-  .xl\:pt-44 {
-    padding-top: 11rem;
+@media (min-width: 1800px) {
+  .xl\:pt-11 {
+    padding-top: 2.75rem;
   }
 
-  .xl\:pt-48 {
-    padding-top: 12rem;
+  .xl\:pt-32 {
+    padding-top: 8rem;
   }
 
   .xl\:pt-96 {
     padding-top: 24rem;
   }
 
+  .xl\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
   .xl\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 2100px) {
+  .dekstop\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .dekstop\:pt-48 {
+    padding-top: 12rem;
+  }
+
+  .dekstop\:pt-4 {
+    padding-top: 1rem;
+  }
+
+  .dekstop\:pt-44 {
+    padding-top: 11rem;
+  }
+
+  .dekstop\:text-9xl {
     font-size: 8rem;
     line-height: 1;
   }
