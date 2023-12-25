@@ -535,137 +535,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-44 {
-  height: 11rem;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
-.h-max {
-  height: -webkit-max-content;
-  height: max-content;
-}
-
-.h-svh {
-  height: 100svh;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-\[1920px\] {
-  height: 1920px;
-}
-
-.h-\[1080px\] {
-  height: 1080px;
-}
-
-.h-\[91\] {
-  height: 91;
-}
-
-.h-\[914px\] {
-  height: 914px;
-}
-
-.h-\[412x\] {
-  height: 412x;
-}
-
-.h-\[412px\] {
-  height: 412px;
-}
-
-.h-\[600x\] {
-  height: 600x;
-}
-
-.h-\[500x\] {
-  height: 500x;
-}
-
-.h-\[490x\] {
-  height: 490x;
-}
-
-.h-\[490px\] {
-  height: 490px;
-}
-
-.h-\[499x\] {
-  height: 499x;
-}
-
-.h-\[495x\] {
-  height: 495x;
-}
-
-.h-\[494x\] {
-  height: 494x;
-}
-
-.h-\[494px\] {
-  height: 494px;
-}
-
-.h-\[600px\] {
-  height: 600px;
-}
-
-.h-\[700px\] {
-  height: 700px;
-}
-
-.h-\[1080x\] {
-  height: 1080x;
-}
-
-.h-\[900px\] {
-  height: 900px;
-}
-
-.h-\[800px\] {
-  height: 800px;
-}
-
-.h-\[720px\] {
-  height: 720px;
-}
-
-.h-\[740px\] {
-  height: 740px;
-}
-
-.h-\[760px\] {
-  height: 760px;
-}
-
-.h-\[7800px\] {
-  height: 7800px;
-}
-
-.h-\[780px\] {
-  height: 780px;
-}
-
 .h-\[730px\] {
   height: 730px;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .bg-\[url\(\'\.\/assets\/img\/HeaderHandphone\.gif\'\)\] {
@@ -684,110 +555,24 @@ video {
   background-image: url('./assets/img/SneakPeaksHandphone.gif');
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-cover {
   background-size: cover;
-}
-
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-fixed {
-  background-attachment: fixed;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.object-cover {
-  object-fit: cover;
-}
-
-.object-fill {
-  object-fit: fill;
 }
 
 .pt-20 {
   padding-top: 5rem;
 }
 
-.pt-24 {
-  padding-top: 6rem;
-}
-
-.pt-48 {
-  padding-top: 12rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pt-56 {
-  padding-top: 14rem;
-}
-
 .pt-64 {
   padding-top: 16rem;
-}
-
-.pt-72 {
-  padding-top: 18rem;
-}
-
-.pt-80 {
-  padding-top: 20rem;
-}
-
-.pt-7 {
-  padding-top: 1.75rem;
-}
-
-.pt-\[\] {
-  padding-top: ;
-}
-
-.pt-\[76px\] {
-  padding-top: 76px;
-}
-
-.pt-\[390px\] {
-  padding-top: 390px;
-}
-
-.pt-\[3\] {
-  padding-top: 3;
-}
-
-.pt-8 {
-  padding-top: 2rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-\[85px\] {
-  font-size: 85px;
-}
-
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -800,11 +585,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) {
-  .md\:h-auto {
-    height: auto;
-  }
-
+@media (min-width: 1024px) {
   .md\:h-screen {
     height: 100vh;
   }
@@ -825,35 +606,63 @@ video {
     background-image: url('./assets/img/SneakPeaks.gif');
   }
 
-  .md\:bg-cover {
-    background-size: cover;
-  }
-
-  .md\:pt-2 {
-    padding-top: 0.5rem;
+  .md\:pt-7 {
+    padding-top: 1.75rem;
   }
 
   .md\:pt-72 {
     padding-top: 18rem;
   }
 
-  .md\:pt-4 {
+  .md\:text-\[85px\] {
+    font-size: 85px;
+  }
+}
+
+@media (min-width: 2304px) {
+  .xl\:pt-96 {
+    padding-top: 24rem;
+  }
+
+  .xl\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .xl\:pt-48 {
+    padding-top: 12rem;
+  }
+
+  .xl\:pt-4 {
     padding-top: 1rem;
   }
 
-  .md\:pt-5 {
+  .xl\:pt-5 {
     padding-top: 1.25rem;
   }
 
-  .md\:pt-8 {
-    padding-top: 2rem;
+  .xl\:pt-52 {
+    padding-top: 13rem;
   }
 
-  .md\:pt-7 {
-    padding-top: 1.75rem;
+  .xl\:pt-44 {
+    padding-top: 11rem;
   }
 
-  .md\:text-\[85px\] {
-    font-size: 85px;
+  .xl\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .xl\:pt-56 {
+    padding-top: 14rem;
+  }
+
+  .xl\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .xl\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 }
