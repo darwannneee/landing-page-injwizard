@@ -559,10 +559,6 @@ video {
   background-size: cover;
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
 .bg-center {
   background-position: center;
 }
@@ -571,47 +567,13 @@ video {
   background-repeat: no-repeat;
 }
 
-.pt-24 {
-  padding-top: 6rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 @media (min-width: 1024px) {
-  .md\:h-screen {
-    height: 100vh;
-  }
-
-  .md\:h-28 {
-    height: 7rem;
-  }
-
-  .md\:h-24 {
-    height: 6rem;
-  }
-
-  .md\:h-5 {
-    height: 1.25rem;
-  }
-
   .md\:h-56 {
     height: 14rem;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:bg-\[url\(\'\.\/assets\/img\/Header\.gif\'\)\] {
@@ -629,10 +591,6 @@ video {
   .md\:bg-\[url\(\'\.\/assets\/img\/SneakPeaks\.gif\'\)\] {
     background-image: url('./assets/img/SneakPeaks.gif');
   }
-
-  .md\:text-\[85px\] {
-    font-size: 85px;
-  }
 }
 
 @media (min-width: 1100px) {
@@ -644,20 +602,5 @@ video {
 @media (min-width: 1800px) {
   .xl\:h-\[1400px\] {
     height: 1400px;
-  }
-
-  .xl\:pt-32 {
-    padding-top: 8rem;
-  }
-
-  .xl\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
-  }
-}
-
-@media (min-width: 2100px) {
-  .dekstop\:pt-40 {
-    padding-top: 10rem;
   }
 }
