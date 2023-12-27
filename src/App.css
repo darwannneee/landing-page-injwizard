@@ -559,12 +559,20 @@ video {
   background-size: cover;
 }
 
-.pt-24 {
-  padding-top: 6rem;
+.bg-auto {
+  background-size: auto;
 }
 
-.pt-64 {
-  padding-top: 16rem;
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .text-center {
@@ -590,6 +598,22 @@ video {
     height: 100vh;
   }
 
+  .md\:h-28 {
+    height: 7rem;
+  }
+
+  .md\:h-24 {
+    height: 6rem;
+  }
+
+  .md\:h-5 {
+    height: 1.25rem;
+  }
+
+  .md\:h-56 {
+    height: 14rem;
+  }
+
   .md\:bg-\[url\(\'\.\/assets\/img\/Header\.gif\'\)\] {
     background-image: url('./assets/img/Header.gif');
   }
@@ -598,20 +622,12 @@ video {
     background-image: url('./assets/img/MoreSneakPeaks.gif');
   }
 
-  .md\:bg-\[url\(\'\.\/assets\/img\/Roadmap\.png\'\)\] {
-    background-image: url('./assets/img/Roadmap.png');
+  .md\:bg-\[url\(\'\.\/assets\/img\/Roadmap\.gif\'\)\] {
+    background-image: url('./assets/img/Roadmap.gif');
   }
 
   .md\:bg-\[url\(\'\.\/assets\/img\/SneakPeaks\.gif\'\)\] {
     background-image: url('./assets/img/SneakPeaks.gif');
-  }
-
-  .md\:pt-7 {
-    padding-top: 1.75rem;
-  }
-
-  .md\:pt-72 {
-    padding-top: 18rem;
   }
 
   .md\:text-\[85px\] {
@@ -623,10 +639,6 @@ video {
   .md2\:h-\[810px\] {
     height: 810px;
   }
-
-  .md2\:pt-6 {
-    padding-top: 1.5rem;
-  }
 }
 
 @media (min-width: 1800px) {
@@ -634,21 +646,8 @@ video {
     height: 1400px;
   }
 
-  .xl\:pt-11 {
-    padding-top: 2.75rem;
-  }
-
   .xl\:pt-32 {
     padding-top: 8rem;
-  }
-
-  .xl\:pt-96 {
-    padding-top: 24rem;
-  }
-
-  .xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
   }
 
   .xl\:text-9xl {
@@ -660,14 +659,5 @@ video {
 @media (min-width: 2100px) {
   .dekstop\:pt-40 {
     padding-top: 10rem;
-  }
-
-  .dekstop\:pt-44 {
-    padding-top: 11rem;
-  }
-
-  .dekstop\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
   }
 }
