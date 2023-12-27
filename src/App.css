@@ -568,10 +568,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .md\:h-56 {
-    height: 14rem;
-  }
-
   .md\:h-screen {
     height: 100vh;
   }
