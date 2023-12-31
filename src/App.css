@@ -535,117 +535,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.h-\[730px\] {
-  height: 730px;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-\[960px\] {
-  height: 960px;
-}
-
-.h-\[8000px\] {
-  height: 8000px;
-}
-
-.h-\[800px\] {
-  height: 800px;
-}
-
-.h-\[0px\] {
-  height: 0px;
-}
-
-.h-\[78px\] {
-  height: 78px;
-}
-
-.h-\[780px\] {
-  height: 780px;
-}
-
-.h-\[740px\] {
-  height: 740px;
-}
-
-.h-\[100px\] {
-  height: 100px;
-}
-
-.h-\[710px\] {
-  height: 710px;
-}
-
-.h-\[700px\] {
-  height: 700px;
-}
-
-.h-\[600px\] {
-  height: 600px;
-}
-
-.h-\[640px\] {
-  height: 640px;
-}
-
-.h-max {
-  height: -webkit-max-content;
-  height: max-content;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-\[px\] {
-  height: px;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-2\.5 {
-  height: 0.625rem;
-}
-
-.h-1 {
-  height: 0.25rem;
-}
-
-.h-dvh {
-  height: 100dvh;
-}
-
-.h-lvh {
-  height: 100lvh;
-}
-
 .h-svh {
   height: 100svh;
-}
-
-.max-h-full {
-  max-height: 100%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-64 {
-  width: 16rem;
 }
 
 .bg-\[url\(\'\.\/assets\/img\/HeaderHandphone\.gif\'\)\] {
@@ -677,24 +568,8 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .md\:h-\[960px\] {
-    height: 960px;
-  }
-
-  .md\:h-\[966px\] {
-    height: 966px;
-  }
-
-  .md\:w-\[1920px\] {
-    width: 1920px;
-  }
-
   .md\:bg-\[url\(\'\.\/assets\/img\/Header\.gif\'\)\] {
     background-image: url('./assets/img/Header.gif');
-  }
-
-  .md\:bg-\[url\(\'\.\/assets\/img\/MoreSneakPeaks\.gif\'\)\] {
-    background-image: url('./assets/img/MoreSneakPeaks.gif');
   }
 
   .md\:bg-\[url\(\'\.\/assets\/img\/Roadmap\.gif\'\)\] {
@@ -703,5 +578,9 @@ video {
 
   .md\:bg-\[url\(\'\.\/assets\/img\/SneakPeaks\.gif\'\)\] {
     background-image: url('./assets/img/SneakPeaks.gif');
+  }
+
+  .md\:bg-\[url\(\'\.\/assets\/img\/MoreSneakPeaks\.png\'\)\] {
+    background-image: url('./assets/img/MoreSneakPeaks.png');
   }
 }
