@@ -1,7 +1,8 @@
+import SneakPeaksImage from "../img/SneakPeaks.gif"
 function SneakPeaks() {
     return (
-        <main className="bg-[url('./assets/img/SneakPeaksHandphone.gif')] md:bg-[url('./assets/img/SneakPeaks.gif')] h-svh bg-cover bg-no-repeat bg-center">
-    
+        <main class="min-h-screen flex">
+            <img src={SneakPeaksImage} class="lg:block bottom-0 transform object-cover -z-10 prevent-drag" alt="Header Image" />
         </main>
     )
 }

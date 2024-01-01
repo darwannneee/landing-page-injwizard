@@ -1,7 +1,9 @@
+import HeaderImage from "../img/Header.gif"
+
 function Header() {
     return (
-        <main className="bg-[url('./assets/img/HeaderHandphone.gif')] md:bg-[url('./assets/img/Header.gif')] h-svh bg-cover bg-no-repeat bg-center">
-            
+        <main class="min-h-screen flex">
+            <img src={HeaderImage} class="lg:block bottom-0 transform object-cover -z-10 prevent-drag" alt="Header Image" />
         </main>
     )
 }
