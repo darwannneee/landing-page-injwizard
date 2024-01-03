@@ -8,8 +8,8 @@ function Home() {
        <div>
             <Header />
             <SneakPeaks />
-            <Roadmap />
-            <MoreSneakPeaks />
+            {/* <Roadmap />
+            <MoreSneakPeaks /> */}
        </div>
     )
 }
