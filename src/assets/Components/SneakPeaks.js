@@ -22,8 +22,9 @@ function SneakPeaks() {
 
     return (
         <main class="h-screen flex">
-           <img src={isMobile ? SneakPeaksImageHandphone : SneakPeaksImage} class="lg:block bottom-0 transform bg-cover -z-10 prevent-drag h-screen" alt="Header Image" />
+            <img src={isMobile ? SneakPeaksImageHandphone : SneakPeaksImage} class="lg:block bottom-0 transform bg-cover -z-10 prevent-drag h-screen w-full object-cover" alt="Header Image" />
         </main>
+
     )
 }
 
