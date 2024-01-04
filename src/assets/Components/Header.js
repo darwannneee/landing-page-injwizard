@@ -21,8 +21,9 @@ function Header() {
     }, []);
     return (
         <main class="min-h-screen flex">
-            <img src={isMobile ? HeaderMobile : HeaderImage} class="lg:block bottom-0 transform object-cover -z-10 prevent-drag h-screen" alt="Header Image" />
+            <img src={isMobile ? HeaderMobile : HeaderImage} class="lg:block bottom-0 transform object-cover -z-10 prevent-drag h-screen w-full" alt="Header Image" />
         </main>
+    
     )
 }
 
