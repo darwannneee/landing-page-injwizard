@@ -28,35 +28,35 @@ function Header() {
                 alt="Header Image"
             />
 
-<div className="absolute inset-0 flex items-center justify-center pt-32">
+<div className="absolute inset-0 flex items-center justify-center pt-32 dekstop:pt-40">
       <button
-        className="w-44 h-16 mx-2 bg-cover bg-center  relative hover:w-48 hover:h-20 hover:shadow-md"
+        className="w-44 h-16 dekstop:w-56 dekstop:h-20 mx-2 bg-cover bg-center relative hover:w-48 hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
         style={{
             backgroundImage: `url(${Button})`,
             filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
         }}
       >
-        <span className="fontTitle text-white text-2xl">DISCORD</span>
+        <span className="fontTitle text-white text-2xl dekstop:text-3xl">DISCORD</span>
       </button>
 
       <button
-        className="w-44 h-16 bg-cover bg-center relative mx-28 hover:w-48 hover:h-20 hover:shadow-md"
+        className="w-44 h-16 dekstop:w-56 dekstop:h-20 bg-cover bg-center relative mx-28 dekstop:mx-48 hover:w-48 hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
         style={{
             backgroundImage: `url(${Button})`,
             filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
         }}
       >
-        <span className="fontTitle text-white text-2xl">CHECKER</span>
+        <span className="fontTitle text-white text-2xl dekstop:text-3xl">CHECKER</span>
       </button>
 
       <button
-        className="w-44 h-16 mx-2 bg-cover bg-center relative hover:w-48 hover:h-20 hover:shadow-md"
+        className="w-44 h-16 dekstop:w-56 dekstop:h-20 mx-2 bg-cover bg-center relative hover:w-48 hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
         style={{
             backgroundImage: `url(${Button})`,
             filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
         }}
       >
-        <span className="fontTitle text-white text-2xl">TWITTER</span>
+        <span className="fontTitle text-white text-2xl dekstop:text-3xl">TWITTER</span>
       </button>
     </div>
         </div>
