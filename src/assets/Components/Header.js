@@ -30,22 +30,31 @@ function Header() {
 
 <div className="absolute inset-0 flex items-center justify-center pt-32">
       <button
-        className="w-44 h-16 mx-2 bg-cover bg-center relative hover:w-48 hover:h-20 hover:shadow-md"
-        style={{ backgroundImage: `url(${Button})` }}
+        className="w-44 h-16 mx-2 bg-cover bg-center  relative hover:w-48 hover:h-20 hover:shadow-md"
+        style={{
+            backgroundImage: `url(${Button})`,
+            filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
+        }}
       >
         <span className="fontTitle text-white text-2xl">DISCORD</span>
       </button>
 
       <button
         className="w-44 h-16 bg-cover bg-center relative mx-28 hover:w-48 hover:h-20 hover:shadow-md"
-        style={{ backgroundImage: `url(${Button})` }}
+        style={{
+            backgroundImage: `url(${Button})`,
+            filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
+        }}
       >
         <span className="fontTitle text-white text-2xl">CHECKER</span>
       </button>
 
       <button
         className="w-44 h-16 mx-2 bg-cover bg-center relative hover:w-48 hover:h-20 hover:shadow-md"
-        style={{ backgroundImage: `url(${Button})` }}
+        style={{
+            backgroundImage: `url(${Button})`,
+            filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
+        }}
       >
         <span className="fontTitle text-white text-2xl">TWITTER</span>
       </button>
