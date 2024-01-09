@@ -1,5 +1,5 @@
 import SneakPeaksImage from "../img/SneakPeek.gif"
-import SneakPeaksImageHandphone from "../img/SneakPeaksHandphone.gif"
+import SneakPeaksImageHandphone from "../img/SneakPeekMobile.gif"
 
 import { useEffect, useState } from "react";
 function SneakPeaks() {
