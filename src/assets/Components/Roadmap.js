@@ -1,9 +1,13 @@
-import ImageRoadmap from "../img/Roadmap.gif"
+import Footer from "../img/Footer.gif"
 function Roadmap() {
     return (
-        <main class="min-h-screen flex">
-            <img src={ImageRoadmap} class="lg:block bottom-0 transform object-cover -z-10 prevent-drag" alt="Header Image" />
+        <main className="min-h-screen flex flex-col items-center relative">
+            <img src={Footer} className="lg:block bottom-0 transform object-cover -z-10 prevent-drag h-screen" alt="Footer Image" />
+            <div className="absolute inset-0 flex justify-center pt-16">
+                <h1 className="text-white text-6xl font-bold fontTitle">Roadmap Coming Soon</h1>
+            </div>
         </main>
+
     )
 }
 
