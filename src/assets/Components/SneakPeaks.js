@@ -1,4 +1,4 @@
-import SneakPeaksImage from "../img/SneakPeaks.gif"
+import SneakPeaksImage from "../img/SneakPeek.gif"
 import SneakPeaksImageHandphone from "../img/SneakPeaksHandphone.gif"
 
 import { useEffect, useState } from "react";
