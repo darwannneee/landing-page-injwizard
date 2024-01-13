@@ -43,7 +43,7 @@ function Header() {
                 
                         
                 <button
-                    className="w-40 h-16 md:w-44 mt-5 md:mt-0 md:h-16 dekstop:w-56 dekstop:h-20 bg-cover bg-center relative md:mx-28 dekstop:mx-48 hover:w-48 hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
+                    className="w-40 h-16 md:w-44 mt-5 md:mt-0 md:h-16 dekstop:w-56 dekstop:h-20 bg-cover bg-center relative md:mx-28 dekstop:mx-48 md:hover:w-48 md:hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
                     style={{
                         backgroundImage: `url(${Button})`,
                         filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
