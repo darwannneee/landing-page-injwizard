@@ -728,6 +728,14 @@ video {
     font-size: 3.75rem;
     line-height: 1;
   }
+
+  .md\:hover\:h-20:hover {
+    height: 5rem;
+  }
+
+  .md\:hover\:w-48:hover {
+    width: 12rem;
+  }
 }
 
 @media (min-width: 2100px) {
