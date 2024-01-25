@@ -28,7 +28,7 @@ function Checker() {
         const address = event.target.value;
         
         if (address.trim() !== "") {
-            if(WhitelistData.find(data => data.wallet === address && data.mintlimit === 1)) {
+            if(WhitelistData.find(data => data.wallet === address && data.mintlimit === 1) && !OgData.find(data => data === address)) {
                 setStatus('wl')
             } 
             else if(WhitelistData.find(data => data.wallet === address && data.mintlimit === 2)) {
@@ -36,6 +36,10 @@ function Checker() {
             } 
             else if(OgData.find(data => data === address)) {
                 setStatus('og')
+
+                if(WhitelistData.find(data => data.wallet === address && data.mintlimit === 1)) {
+                    setStatus('wl3')
+                } 
             } 
             else {
                 setStatus("no");
@@ -45,7 +49,7 @@ function Checker() {
         }
     }    
 
-    console.log(status)
+    // console.log(status)
 
 
 
@@ -82,6 +86,12 @@ function Checker() {
                 {status === 'wl2' && (
                     <div>
                         <h1 className="text-white fontTitle text-sm mt-2 md:mt-5 md:text-2xl dekstop:text-7xl dekstop:mt-16">Congrats you got 2 new wizard collection</h1>
+                    </div>
+                )}
+
+                {status === 'wl3' && (
+                    <div>
+                        <h1 className="text-white fontTitle text-sm mt-2 md:mt-5 md:text-2xl dekstop:text-7xl dekstop:mt-16">Congrats! You got 2+1 Wizard Collection</h1>
                     </div>
                 )}
 
