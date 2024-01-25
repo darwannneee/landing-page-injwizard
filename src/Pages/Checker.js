@@ -28,8 +28,11 @@ function Checker() {
         const address = event.target.value;
         
         if (address.trim() !== "") {
-            if(WhitelistData.find(data => data === address)) {
+            if(WhitelistData.find(data => data.wallet === address && data.mintlimit === 1)) {
                 setStatus('wl')
+            } 
+            else if(WhitelistData.find(data => data.wallet === address && data.mintlimit === 2)) {
+                setStatus('wl2')
             } 
             else if(OgData.find(data => data === address)) {
                 setStatus('og')
@@ -52,7 +55,7 @@ function Checker() {
                 <img src={isMobile ? CheckerMobile : WalletChecker} class="lg:block bottom-0 transform bg-cover -z-10 prevent-drag h-screen w-full object-cover" alt="Header Image" />
                 <div className="absolute inset-0 flex flex-col items-center pt-[245px] md:pt-56">
                     <h1 className="text-white text-center text-3xl md:text-4xl font-bold fontTitle">Wallet Checker</h1>
-                    <input className="w-48 h-7 md:w-80 md:h-11 mt-4 md:mt-16 rounded-2xl text-center" name="inputAddress" onInput={handleOnchange}></input>
+                    <input className="w-48 h-7 md:w-80 md:h-11 mt-4 md:mt-16 rounded-2xl text-center fontTitle" name="inputAddress" onInput={handleOnchange}></input>
                     {/* <button
                     className="w-16 h-7 md:w-28 md:mt-3 md:h-10 dekstop:w-56 dekstop:h-20 mx-2 bg-cover bg-center relative  dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md mt-1"
                     style={{
@@ -66,25 +69,31 @@ function Checker() {
 
                 {status === 'og' && (
                     <div>
-                        <h1 className="text-white text-8xl">you're OG</h1>
+                        <h1 className="text-white fontTitle text-sm mt-2 md:mt-5 md:text-2xl">Congrats you got 2 new wizard collection</h1>
                     </div>
                 )}
 
                 {status === 'wl' && (
                     <div>
-                        <h1 className="text-white text-8xl">you're WL</h1>
+                       <h1 className="text-white fontTitle text-sm mt-2 md:mt-5 md:text-2xl">Congrats you got a new wizard collection</h1>
+                    </div>
+                )}
+
+                {status === 'wl2' && (
+                    <div>
+                        <h1 className="text-white fontTitle text-sm mt-2 md:mt-5 md:text-2xl">Congrats you got 2 new wizard collection</h1>
                     </div>
                 )}
 
                 {status === 'no' && (
                     <div>
-                       <h1 className="text-white text-8xl">sorry, you can mint at public phase</h1>
+                       <h1 className="text-white fontTitle text-sm mt-2 md:mt-5 md:text-2xl">sorry, you can mint at public phase</h1>
                     </div>
                 )}
 
                 {status === 'none' && (
                     <div>
-                        <h1 className="text-white text-8xl"></h1>
+                        <h1 className=""></h1>
                     </div>
                 )}
                 
