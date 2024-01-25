@@ -839,21 +839,113 @@ video {
     margin-right: 12rem;
   }
 
+  .dekstop\:mt-80 {
+    margin-top: 20rem;
+  }
+
+  .dekstop\:mt-96 {
+    margin-top: 24rem;
+  }
+
+  .dekstop\:mt-28 {
+    margin-top: 7rem;
+  }
+
+  .dekstop\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .dekstop\:h-20 {
     height: 5rem;
+  }
+
+  .dekstop\:h-\[1140px\] {
+    height: 1140px;
+  }
+
+  .dekstop\:h-\[240px\] {
+    height: 240px;
+  }
+
+  .dekstop\:h-\[140px\] {
+    height: 140px;
   }
 
   .dekstop\:w-56 {
     width: 14rem;
   }
 
+  .dekstop\:w-\[340px\] {
+    width: 340px;
+  }
+
+  .dekstop\:w-\[840px\] {
+    width: 840px;
+  }
+
+  .dekstop\:w-\[940px\] {
+    width: 940px;
+  }
+
+  .dekstop\:w-\[1140px\] {
+    width: 1140px;
+  }
+
   .dekstop\:pt-40 {
     padding-top: 10rem;
+  }
+
+  .dekstop\:pt-96 {
+    padding-top: 24rem;
+  }
+
+  .dekstop\:pt-28 {
+    padding-top: 7rem;
+  }
+
+  .dekstop\:pt-\[480px\] {
+    padding-top: 480px;
+  }
+
+  .dekstop\:pt-\[880px\] {
+    padding-top: 880px;
+  }
+
+  .dekstop\:pt-\[780px\] {
+    padding-top: 780px;
+  }
+
+  .dekstop\:pt-\[850px\] {
+    padding-top: 850px;
+  }
+
+  .dekstop\:pt-\[820px\] {
+    padding-top: 820px;
   }
 
   .dekstop\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .dekstop\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .dekstop\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .dekstop\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .dekstop\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 
   .dekstop\:hover\:h-24:hover {
