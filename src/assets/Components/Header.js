@@ -8,14 +8,12 @@ function Header() {
 
     useEffect(() => {
         const handleResize = () => {
-        setIsMobile(window.innerWidth <= 600); // Atur nilai threshold sesuai kebutuhan
+        setIsMobile(window.innerWidth <= 600);
         };
 
-        // Panggil handleResize saat komponen dimount dan ukuran layar berubah
         handleResize();
         window.addEventListener('resize', handleResize);
 
-        // Membersihkan event listener saat komponen di-unmount
         return () => {
         window.removeEventListener('resize', handleResize);
         };
@@ -34,7 +32,7 @@ function Header() {
                         className="w-40 h-16 md:w-44 md:h-16 dekstop:w-56 dekstop:h-20 mx-2 bg-cover bg-center relative md:hover:w-48 md:hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
                         style={{
                             backgroundImage: `url(${Button})`,
-                            filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
+                            filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', 
                         }}
                     >
                         <span className="fontTitle text-white md:text-2xl dekstop:text-3xl">DISCORD</span>
@@ -46,7 +44,7 @@ function Header() {
                         className="w-40 h-16 md:w-44 mt-5 md:mt-0 md:h-16 dekstop:w-56 dekstop:h-20 bg-cover bg-center relative md:mx-28 dekstop:mx-48 md:hover:w-48 md:hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
                         style={{
                             backgroundImage: `url(${Button})`,
-                            filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
+                            filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', 
                         }}
                     >
                         <span className="fontTitle text-white md:text-2xl dekstop:text-3xl">CHECKER</span>
@@ -58,7 +56,7 @@ function Header() {
                     className="w-40 h-16 md:w-44 mt-5 md:mt-0 md:h-16 dekstop:w-56 dekstop:h-20 mx-2 bg-cover bg-center relative md:hover:w-48 md:hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
                     style={{
                         backgroundImage: `url(${Button})`,
-                        filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', // Sesuaikan bayangan sesuai kebutuhan
+                        filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))',
                     }}
                     >
                         <span className="fontTitle text-white md:text-2xl dekstop:text-3xl">TWITTER</span>

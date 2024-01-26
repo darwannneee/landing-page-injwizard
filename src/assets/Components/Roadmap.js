@@ -7,14 +7,12 @@ function SneakPeaks() {
 
     useEffect(() => {
         const handleResize = () => {
-        setIsMobile(window.innerWidth <= 600); // Atur nilai threshold sesuai kebutuhan
+        setIsMobile(window.innerWidth <= 600);
         };
 
-        // Panggil handleResize saat komponen dimount dan ukuran layar berubah
         handleResize();
         window.addEventListener('resize', handleResize);
 
-        // Membersihkan event listener saat komponen di-unmount
         return () => {
         window.removeEventListener('resize', handleResize);
         };
