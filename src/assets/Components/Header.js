@@ -39,7 +39,7 @@ function Header() {
                     </button>
                 </a>
                 
-                <a href="/checker">        
+                <a href="https://injective.talis.art/">        
                     <button
                         className="w-40 h-16 md:w-44 mt-5 md:mt-0 md:h-16 dekstop:w-56 dekstop:h-20 bg-cover bg-center relative md:mx-28 dekstop:mx-48 md:hover:w-48 md:hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
                         style={{
@@ -47,7 +47,7 @@ function Header() {
                             filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6))', 
                         }}
                     >
-                        <span className="fontTitle text-white md:text-2xl dekstop:text-3xl">CHECKER</span>
+                        <span className="fontTitle text-white md:text-2xl dekstop:text-3xl">Talis.art</span>
                     </button>
                 </a>
 
