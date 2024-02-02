@@ -39,7 +39,7 @@ function Header() {
                     </button>
                 </a>
                 
-                <a href="https://injective.talis.art/">        
+                <a href="https://injective.talis.art/collection/65b3b3d1e6b67bb48e29fbf2">        
                     <button
                         className="w-40 h-16 md:w-44 mt-5 md:mt-0 md:h-16 dekstop:w-56 dekstop:h-20 bg-cover bg-center relative md:mx-28 dekstop:mx-48 md:hover:w-48 md:hover:h-20 dekstop:hover:w-60 dekstop:hover:h-24 hover:shadow-md"
                         style={{
